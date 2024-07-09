@@ -1,3 +1,15 @@
-.letters-container {
-display: flexbox;
-}
+
+  
+  .keyboard {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Adjust grid columns as per your keyboard layout */
+    gap: 5px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  

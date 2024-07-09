@@ -82,81 +82,82 @@ console.log(word)
 //      display.textContent = "- - - - -"
 // })
 
-LetterA.addEventListener("click", function(){
-    display.textContent = "A"
-})
+// letters.addEventListener("click", function(){
+//      display.textContent= "B"
 
-LetterB.addEventListener("click", function(){
-    display.textContent= "B"
+// })
 
-})
-LetterC.addEventListener("click", function(){
-   display.textContent= "C"
-})
-LetterD.addEventListener("click", function(){
-    display.textContent= "D" 
+// LetterB.addEventListener("click", function(){
+//     display.textContent= "B"
 
-})
-LetterE.addEventListener("click", function(){
-     display.textContent= "E"
-})
-LetterF.addEventListener("click", function(){
-     display.textContent= "F"
-})
-LetterG.addEventListener("click", function(){
-     display.textContent= "G"
-})
-LetterH.addEventListener("click", function(){
-     display.textContent= "H"
-})
-LetterI.addEventListener("click", function(){
-     display.textContent= "I"
-})
-LetterJ.addEventListener("click", function(){
-     display.textContent= "J"
-})
-LetterK.addEventListener("click", function(){
-     display.textContent= "K"
-})
-LetterL.addEventListener("click", function(){
-     display.textContent= "L"
-})
-LetterM.addEventListener("click", function(){
-     display.textContent= "M"
-})
-LetterN.addEventListener("click", function(){
-    display.textContent= "N"
-})
-LetterO.addEventListener("click", function(){
-     display.textContent= "O"
-})
-LetterQ.addEventListener("click", function(){
-     display.textContent= "Q"
-})
-LetterR.addEventListener("click", function(){
-     display.textContent= "R"
-})
-LetterS.addEventListener("click", function(){
-    display.textContent= "S"
-})
-LetterT.addEventListener("click", function(){
-     display.textContent= "T"
-})
-LetterU.addEventListener("click", function(){
-     display.textContent= "U"
-})
-LetterV.addEventListener("click", function(){
-     display.textContent= "V"
-})
-LetterW.addEventListener("click", function(){
-     display.textContent= "W"
-})
-LetterX.addEventListener("click", function(){
-     display.textContent= "X"
-})
-LetterY.addEventListener("click", function(){
-     display.textContent= "Y"
-})
-LetterZ.addEventListener("click", function(){
-     display.textContent= "Z"
-})
+// })
+// LetterC.addEventListener("click", function(){
+//    display.textContent= "C"
+// })
+// LetterD.addEventListener("click", function(){
+//     display.textContent= "D" 
+
+// })
+// LetterE.addEventListener("click", function(){
+//      display.textContent= "E"
+// })
+// LetterF.addEventListener("click", function(){
+//      display.textContent= "F"
+// })
+// LetterG.addEventListener("click", function(){
+//      display.textContent= "G"
+// })
+// LetterH.addEventListener("click", function(){
+//      display.textContent= "H"
+// })
+// LetterI.addEventListener("click", function(){
+//      display.textContent= "I"
+// })
+// LetterJ.addEventListener("click", function(){
+//      display.textContent= "J"
+// })
+// LetterK.addEventListener("click", function(){
+//      display.textContent= "K"
+// })
+// LetterL.addEventListener("click", function(){
+//      display.textContent= "L"
+// })
+// LetterM.addEventListener("click", function(){
+//      display.textContent= "M"
+// })
+// LetterN.addEventListener("click", function(){
+//     display.textContent= "N"
+// })
+// LetterO.addEventListener("click", function(){
+//      display.textContent= "O"
+// })
+// LetterQ.addEventListener("click", function(){
+//      display.textContent= "Q"
+// })
+// LetterR.addEventListener("click", function(){
+//      display.textContent= "R"
+// })
+// LetterS.addEventListener("click", function(){
+//     display.textContent= "S"
+// })
+// LetterT.addEventListener("click", function(){
+//      display.textContent= "T"
+// })
+// LetterU.addEventListener("click", function(){
+//      display.textContent= "U"
+// })
+// LetterV.addEventListener("click", function(){
+//      display.textContent= "V"
+// })
+// LetterW.addEventListener("click", function(){
+//      display.textContent= "W"
+// })
+// LetterX.addEventListener("click", function(){
+//      display.textContent= "X"
+// })
+// LetterY.addEventListener("click", function(){
+//      display.textContent= "Y"
+// })
+// LetterZ.addEventListener("click", function(){
+//      display.textContent= "Z"
+// })
