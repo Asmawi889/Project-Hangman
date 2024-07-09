@@ -1,14 +1,14 @@
-
+/* AI helped me a bit with css */
   
   .keyboard {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(10, 1fr); /* Adjust grid columns as per your keyboard layout */
+    grid-template-columns: repeat(9, 1fr); 
     gap: 5px;
-    background-color: #000000;
+    background-color: #585858;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
     color: white;
   }
   
