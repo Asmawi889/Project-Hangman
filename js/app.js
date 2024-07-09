@@ -4,32 +4,36 @@ const RandomWords= ['might','peter','think','space','shift','exact','bases','lea
 
 const lettersContainer = document.getElementById("letters-container")
 
-const LetterB= document.getElementById("letter-B")
-const LetterC= document.getElementById("letter-C")
-const LetterD= document.getElementById("letter-D")
-const LetterE= document.getElementById("letter-E")
-const LetterF= document.getElementById("letter-F")
-const LetterG= document.getElementById("letter-G")
-const LetterH= document.getElementById("letter-H")
-const LetterI= document.getElementById("letter-I")
-const LetterJ= document.getElementById("letter-J")
-const LetterA= document.getElementById("letter-A")
-const LetterK= document.getElementById("letter-K")
-const LetterL= document.getElementById("letter-L")
-const LetterM= document.getElementById("letter-M")
-const LetterN= document.getElementById("letter-N")
-const LetterO= document.getElementById("letter-O")
-const LetterP= document.getElementById("letter-P")
-const LetterQ= document.getElementById("letter-Q")
-const LetterR= document.getElementById("letter-R")
-const LetterS= document.getElementById("letter-S")
-const LetterT= document.getElementById("letter-T")
-const LetterU= document.getElementById("letter-U")
-const LetterV= document.getElementById("letter-V")
-const LetterW= document.getElementById("letter-W")
-const LetterX= document.getElementById("letter-X")
-const LetterY= document.getElementById("letter-Y")
-const LetterZ= document.getElementById("letter-Z")
+
+const letters=document.querySelector(".keyboard")
+
+
+// const LetterB= document.getElementById("letter-B")
+// const LetterC= document.getElementById("letter-C")
+// const LetterD= document.getElementById("letter-D")
+// const LetterE= document.getElementById("letter-E")
+// const LetterF= document.getElementById("letter-F")
+// const LetterG= document.getElementById("letter-G")
+// const LetterH= document.getElementById("letter-H")
+// const LetterI= document.getElementById("letter-I")
+// const LetterJ= document.getElementById("letter-J")
+// const LetterA= document.getElementById("letter-A")
+// const LetterK= document.getElementById("letter-K")
+// const LetterL= document.getElementById("letter-L")
+// const LetterM= document.getElementById("letter-M")
+// const LetterN= document.getElementById("letter-N")
+// const LetterO= document.getElementById("letter-O")
+// const LetterP= document.getElementById("letter-P")
+// const LetterQ= document.getElementById("letter-Q")
+// const LetterR= document.getElementById("letter-R")
+// const LetterS= document.getElementById("letter-S")
+// const LetterT= document.getElementById("letter-T")
+// const LetterU= document.getElementById("letter-U")
+// const LetterV= document.getElementById("letter-V")
+// const LetterW= document.getElementById("letter-W")
+// const LetterX= document.getElementById("letter-X")
+// const LetterY= document.getElementById("letter-Y")
+// const LetterZ= document.getElementById("letter-Z")
 
 const display = document.querySelector("#output")
 
@@ -39,9 +43,8 @@ const input = document.querySelector("input")
 
 /* ---------------------------------------Variables(state)--------------------------------------------*/
 
-var word=RandomWords[Math.floor(Math.random()*RandomWords.length)];
 
-console.log(word);
+
 
 
 /* -----------------------------------cached elemnt refrenace------------------------------------------------*/
@@ -50,17 +53,34 @@ console.log(word);
 
 
 /* ---------------------------------------FUNCTIONS--------------------------------------------*/
+for (let i =97 ; i<= 122; i++){
+const board = document.createElement("button");
+board.innerText = String.fromCharCode(i);
+board.className= "keyboard"
+letters.appendChild(board);
+
+}
 
 
 
-// const correct =(correctLet) => {
-//     if(output = )
 
-//     }
 
+const getWords = (correctWord) =>{
+ var word=RandomWords[Math.floor(Math.random()*RandomWords.length)];
+console.log(word)
+ 
+     
+
+}
 
 /*----------------------------------------EVENT LISTENERS-------------------------------------*/
 
+
+
+// display.addEventListener( load, function(){
+
+//      display.textContent = "- - - - -"
+// })
 
 LetterA.addEventListener("click", function(){
     display.textContent = "A"
