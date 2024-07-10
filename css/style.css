@@ -1,15 +1,41 @@
 /* AI helped me a bit with css */
   
+body {
+background-color:rgb(255,0,101);
+
+
+}
+.Title{
+text-align: center;
+
+}
+
+
+
+
+
+
+.display {
+    
+    text-align: center;
+  }
+
+ 
+
+
+
   .keyboard {
-    position: relative;
+    position:relative;
     display: grid;
     grid-template-columns: repeat(9, 1fr); 
-    gap: 5px;
-    background-color: #585858;
-    padding: 20px;
+    gap: 3px;
+    background-color: #000000;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
     color: white;
+    margin-top: 20%;
   }
+
   
   
