@@ -1,5 +1,10 @@
 # __THE GUESSING GAME__
 ![alt text](image.png)
+## game description
+The the guessing game is a game in where you try to guess the letter and if right you win and you have a certain amount of tries to do so 
+
+https://Asmawi889.github.io/Project-Hangman/
+
 ## _USER STORIES_
 	1- As a Player, I want to be able to Press the letters and get the letters shown to me on the page
 
