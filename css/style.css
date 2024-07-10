@@ -1,13 +1,14 @@
 /* AI helped me a bit with css */
   
 body {
-background-color:rgb(255,0,101);
-
+background-color: #003135;
+color: #b7b7b7;
 
 }
 .Title{
 text-align: center;
-
+background-color: #0194a1 ;
+color: #000000;
 }
 
 
@@ -30,11 +31,11 @@ text-align: center;
     grid-template-columns: repeat(9, 1fr); 
     gap: 3px;
     background-color: #000000;
-    padding: 25px;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
-    color: white;
-    margin-top: 20%;
+    box-shadow: 0 0 10px rgba(14, 14, 14, 0.2);
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
   }
 
   
