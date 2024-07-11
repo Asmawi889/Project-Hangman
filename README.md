@@ -1,10 +1,29 @@
 # __THE GUESSING GAME__
 ![alt text](image.png)
+<<<<<<< HEAD
 ## game description
 The the guessing game is a game in where you try to guess the letter and if right you win and you have a certain amount of tries to do so 
 
 https://Asmawi889.github.io/Project-Hangman/
 
+=======
+
+## game description 
+the game requires the user to guess a letter and then see if they get a the right letter of the word or not and you have to refreash the website to retry.
+
+this is a link to the game:
+https://Asmawi889.github.io/Project-Hangman/
+
+
+
+## TECHNOLOGIES USED 
+1-HTML 
+
+2-CSS
+
+3-JAVASCRIPT
+
+>>>>>>> main
 ## _USER STORIES_
 	1- As a Player, I want to be able to Press the letters and get the letters shown to me on the page
 
@@ -35,4 +54,11 @@ https://Asmawi889.github.io/Project-Hangman/
 
 	7-if you are a loser your game resets with another word
 
-##
+## Next steps
+-Give more functions to my game
+
+-Make it accessible to all devices 
+
+-design it in a more complex manner 
+
+-Have Image represenattions for some of the functions 
